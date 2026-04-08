@@ -44,6 +44,7 @@ Each cache slot contains:
 * tag (identifies the memory block)
 
 ## Supported Operations
+The program continuously runs in a loop, prompting the user to choose one of the following operations until they decide to exit. 
 * Read (R)
   * Checks if data is in cache
   * If yes -> hit
